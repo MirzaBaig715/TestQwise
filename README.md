@@ -30,7 +30,12 @@ Create `Virtual environment` in project directory
 $ python -m venv envname
 $ source envname/bin/activate
 ```
-
+DB Migrations and Tests
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py test
+```
 Create User
 ```
 python manage.py createsuperuser --username admin --email admin
